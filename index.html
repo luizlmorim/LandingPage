@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+  <!--MODO ESCURO-->
+<style>
+  
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+</style>
+  
+    <title>Portal Lana del Rey Brasil</title>
+</head>
+<!--Conteúdo do corpo-->
+  
+<body>
+<!--Cabeçalho-->
+   <header>
+     <div id="logo">
+       <img src="imagens/Lana-Del-Rey-Logo-650x366.png" alt="Logo nome da cantora: Lana del Rey" height="100px">
+     </div>
+
+     <!--Menu-->
+     <ul>
+      <a href="#"><li>Home</li></a> 
+      <a href="#"><li>Álbuns</li></a>
+      <a href="#"><li>Loja</li></a>
+      <a href="#"><li>Acessibilidade</li></a>
+      <a href="#" ><button id="Tema-escuro-btn" onclick="myFunction()" title="Clique para mudar o tema para nortun0 ou claro"><li>Mudar Tema</li></button></a>
+     </ul>
+      
+   </header>
+<!--Fim do cabeçalho-->
+
+<!--Conteúdo Principal. OBS: Neste caso, o conteúdo está dividido em 2 divs principais, uma da direita e uma da esquerda-->
+
+<main>
+    <aside> <!--Lado esquerdo-->
+      <h2><span>Lana del Rey</span></h2>
+      <h2>Portal Brasil</h2>
+      <p>
+         Encontre produtos especiais e oficiais, nacionais e importados da cantora pop Lana Del Rey, no Portal Brasil Lana del Rey loja. Inscreva-se para receber atualizações sobre a artista. 
+      </p>
+      <form> <!--Estrutura para formulário-->
+         <input type="text" placeholder="Nome" />
+         <input type="email" placeholder="Insira seu e-mail"/>
+        <input type="submit" value="Confirmar" />
+      </form>
+    </aside>
+    
+      <article> <!--Lado direto-->
+      <img id="disco" src="imagens/LPstd_1-removebg-preview.png" alt="capa do novo disco da Cantora Lana del Rey"/>
+    </article>
+
+<!--Função modo escuro-->
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+</main>
+</body>
+<!--Fim do main-->

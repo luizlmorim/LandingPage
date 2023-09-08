@@ -1,0 +1,61 @@
+@media screen and (max-width: 768px){
+  
+    body{
+        background: url('imagens/cc7439c2-fc32-4cd3-bc43-77296ac21136.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed; /*Para não deslizar com a pág*/
+        color: #000;
+      
+    }
+   
+     header{
+         flex-direction: column;
+     }
+    
+     #logo{
+        margin: 0 auto;
+    }
+    
+    main {
+         flex-direction: column;
+     }
+   
+  
+    
+     h2{
+         font-size: 38px;
+         color: white;
+        
+     }
+    
+     p{
+        font-weight: 500px;
+        color: white;
+        padding: 10px;
+        background: rgb(167,0,11);
+        border-radius: 20px;
+        box-shadow: 0px 10x 40px #00000056;
+       
+     }
+    
+    
+     form{
+         margin: 0 auto;
+         width: 100%;
+        
+     }
+    
+     input {
+         align-self: center;
+     }
+    
+     #disco{
+         display: none;
+     }
+    
+     ul {
+         text-align: center;
+     }
+ }

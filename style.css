@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(250,250,250);
+    margin: 0 auto; /*centraliza o conteúdo*/
+    padding: 15px;
+    max-height: 1200px; 
+    font-family: fantasy;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row; 
+    align-items: center;
+}
+
+#logo{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+    flex-direction: row;
+}
+
+a{
+    color: #A7000B;
+}
+a:hover{
+    color: #ccc;
+    transition: 0.3s all;
+    padding: 5px;
+}
+
+#Tema-escuro-btn{
+  border: 2px solid rgb(167,0,11);
+  background-color: white;
+  color:  rgb(167,0,11);
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-family: fantasy;
+  
+}
+
+#Tema-escuro-btn:hover{
+    background-color: rgb(167,0,11);
+    color: white;
+    transition: 0.3s;
+}
+
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+
+h2{
+   line-height: 10px;
+   font-size: 50px;
+}
+span{
+    color: #A7000B;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px; /*largura maxima do parágrafo*/
+    font-family: arial;
+}
+
+#disco {
+    width: 580px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #A7000B;
+    color: white;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #A7000B;
+    color: white;
+    font-weight: bold;
+    outline: none;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
